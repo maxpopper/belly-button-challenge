@@ -36,6 +36,8 @@ function barChart(selectedSample) {
     });
   }
   
+
+
   // Bubble chart function
   function bubbleChart(selectedSample) {
 
@@ -72,6 +74,8 @@ function barChart(selectedSample) {
     });
   }
   
+
+
   // Demographic info function
   function demographicInfo(selectedSample) {
       
@@ -92,6 +96,8 @@ function barChart(selectedSample) {
     });
   }
   
+
+
   // Initialize the dashboard function
   function init() {
 
@@ -112,6 +118,8 @@ function barChart(selectedSample) {
     });
   }
   
+
+
   // Function for changes in dropdown
   function optionChanged(newSample) {
 
@@ -120,6 +128,8 @@ function barChart(selectedSample) {
     bubbleChart(newSample);
     demographicInfo(newSample);
   }
+  
+
   
   // Initialize dashboard
   init();
